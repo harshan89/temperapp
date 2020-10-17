@@ -1,6 +1,4 @@
-## Go to Live Demo
-
-#### <a href="https://harshan89.github.io/temper/" target="_blank">Click here (Live Demo)</a>
+## <a href="https://harshan89.github.io/temper/" target="_blank">Click here to Live Demo</a>
 
 <a href="https://harshan89.github.io/temper/" target="_blank">
 <img src="https://i.ibb.co/j56mHSN/full-project.png" alt="Live Preview">
