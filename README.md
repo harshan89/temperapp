@@ -1,5 +1,7 @@
 ## Go to Live Demo
-<a href="https://harshan89.github.io/temper/" target="_blank">Click here (Live Demo)
+<a href="https://harshan89.github.io/temper/" target="_blank">Click here (Live Demo)</a
+<br/>
+<a href="https://harshan89.github.io/temper/" target="_blank">
 <img src="https://i.ibb.co/j56mHSN/full-project.png" alt="Live Preview">
 </a>
 
@@ -30,4 +32,4 @@ Launches the test runner in the interactive watch mode. i have added 9 test case
 
 Builds the app for production to the `build` folder.
 
-⛵⛵ Thank you for the opportunity given me, first time i used [https://tailwindcss.com/](tailwindcss)
+⛵⛵ Thank you for the opportunity given me, first time i used [tailwindcss](https://tailwindcss.com/)
