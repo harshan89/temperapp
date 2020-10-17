@@ -1,8 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-<a href="https://harshan89.github.io/temper/" target="_blank">Click here (Live Demo)</a>.
-
+## Go to Live Demo
+<a href="https://harshan89.github.io/temper/" target="_blank">Click here (Live Demo)
 <img src="https://i.ibb.co/j56mHSN/full-project.png" alt="Live Preview">
+</a>
 
 ## Available Scripts
 
@@ -31,4 +30,4 @@ Launches the test runner in the interactive watch mode. i have added 9 test case
 
 Builds the app for production to the `build` folder.
 
-
+⛵⛵ Thank you for the opportunity given me, first time i used [https://tailwindcss.com/](tailwindcss)
