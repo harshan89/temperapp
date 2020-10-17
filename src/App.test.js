@@ -74,6 +74,8 @@ describe("Sortable Post List & Action List Creation", () => {
   /**
    * Let's make five moments to the post list
    * We create actions according to each movement { action id will be action array length as we used in the project }
+   * post list state changes will push to the postsListState[] array on each movement
+   * 
    */
 
   // post list state 1
