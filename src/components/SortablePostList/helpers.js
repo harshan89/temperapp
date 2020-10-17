@@ -5,10 +5,14 @@
  * @param {array} _posts 
  */
 const swapPost = (index, indexMovedTo, _posts) => {
-    const temp = _posts[index]
-    _posts[index] = _posts[indexMovedTo]
-    _posts[indexMovedTo] = temp
-    return _posts;
+    try {
+        const temp = _posts[index]
+        _posts[index] = _posts[indexMovedTo]
+        _posts[indexMovedTo] = temp
+        return _posts;
+    } catch (e) {
+        console.log(e)
+    }
 }
 
 /**
@@ -17,19 +21,28 @@ const swapPost = (index, indexMovedTo, _posts) => {
  * @param {array} _posts 
  */
 const timeTraveler = (_actionsToRollback, _posts) => {
-    _actionsToRollback.forEach(ac => {
-        _posts = swapPost(ac.toIndex, ac.fromIndex, _posts);
-    })
-    return _posts;
+    try {
+        _actionsToRollback.forEach(ac => {
+            _posts = swapPost(ac.toIndex, ac.fromIndex, _posts);
+        })
+        return _posts;
+    } catch (e) {
+        console.log(e)
+    }
 }
+
 /**
  * New action will be added to the action list
  * @param {array} _actions 
- * @param {array} action 
+ * @param {Object} action 
  */
 const addAction = (_actions, action) => {
-    _actions.push(action)
-    return _actions;
+    try {
+        _actions.push(action)
+        return _actions;
+    } catch (e) {
+        console.log(e)
+    }
 }
 
 export {

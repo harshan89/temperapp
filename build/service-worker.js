@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/temper/precache-manifest.2457cbd5f501a4015a586c9bce7cf6a1.js"
+  "/temper/precache-manifest.a036e27b3a3cefe3c09f1af126fa90cf.js"
 );
 
 self.addEventListener('message', (event) => {
